@@ -15,6 +15,10 @@ To make sure our header file comes out the way we expect we've been using types 
 To continue our exploration, add some more code to `src/lib.rs`:
 
 ```rust
+// You can combine this with the `use` at the top of the file if you wish
+// Or leave it separate, it doesn't matter
+use std::os::raw::c_float;
+
 #[repr(C)]
 pub struct Point {
     pub x: c_float,
