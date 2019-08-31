@@ -11,7 +11,7 @@ In these notes, if you see <code>$ <b>cargo build</b></code> it means this is a 
 ## Software Installation
 
 1. **Xcode**: If necessary, install it from the App Store.
-2. **Xcode command line tools**: Run `xcode-select` in Terminal and make sure it shows they're installed:
+2. **Xcode command line tools**: Run `xcode-select --install` in Terminal and make sure it shows they're installed:
 <pre>
 $ <b>xcode-select --install</b>
 xcode-select: error: command line tools are already installed, use "Software Update" to install updates
