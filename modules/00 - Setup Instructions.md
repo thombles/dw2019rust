@@ -16,7 +16,7 @@ In these notes, if you see <code>$ <b>cargo build</b></code> it means this is a 
 $ <b>xcode-select --install</b>
 xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 </pre>
-3. **Rust**: Install Rust via Rustup. This is both an installation script and a command line tool that you can use to manage your Rust versions and features. Visit https://rustup.rs and follow the instructions. Use the default `stable` toolchain.
+3. **Rust**: Install Rust via Rustup. This is both an installation script and a command line tool that you can use to manage your Rust versions and features. Visit https://rustup.rs and follow the instructions. Use the default `stable` toolchain. When it finishes, remember to either run the provided `source` command or open a new shell!
 4. **Rust extra features**: We need to add Rust targets to build for 64-bit iOS platforms - physical and simulator. 32-bit versions are also available but hopefully you don't need them.
 <pre>
 $ <b>rustup target add aarch64-apple-ios x86_64-apple-ios</b>
