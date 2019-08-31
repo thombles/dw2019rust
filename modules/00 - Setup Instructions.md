@@ -30,11 +30,6 @@ Check that `rustup` thinks everything is installed. Open a terminal and run this
 $ <b>rustup show</b>
 Default host: x86_64-apple-darwin
 
-installed toolchains
---------------------
-
-stable-x86_64-apple-darwin
-
 installed targets for active toolchain
 --------------------------------------
 
