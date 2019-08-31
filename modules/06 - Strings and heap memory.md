@@ -34,7 +34,7 @@ pub fn levenshtein(a: &str, b: &str) -> usize
 
 It shows that we have to call it with two arguments which are _string slices_ `&str`. If you are new to Rust this is pretty weird. ([Here's the explanation](https://doc.rust-lang.org/book/ch04-03-slices.html) but don't worry about it right now.)
 
-In your `src/lib.rs` in the `anvil` project, add a new function. (This won't compile yet!)
+In your `src/lib.rs` in the `anvil` project, add a new function. (**Warning:** This won't compile yet!)
 
 ```rust
 #[no_mangle]
