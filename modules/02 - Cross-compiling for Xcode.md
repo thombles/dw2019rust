@@ -59,11 +59,11 @@ Then in the auto-created bridging header (`TKTest-Bridging-Header.h` in the pict
 
 Locate the universal library `target/libanvil.a` in Finder and drag it into the `Anvil` group inside Xcode. In the dialog box that pops up, check the box to **Copy items if needed**. Make sure the checkbox is selected to add it to the main app target (`TKTest` in this example).
 
-Choose an iOS simulator and try to run the app. You will see that it fails to link.
+Choose an iOS simulator and try to run the app. It might work. Or if you added the library slightly differently, it may fail to link:
 
 ![](img/02-library-not-found.png)
 
-To solve this problem, add the location of the library as a search path.
+If you see this problem, manually add the location of the library as a search path.
 
 * Select the project (**TKTest**) then the target **TKTest**.
 * Select **Build Settings**
