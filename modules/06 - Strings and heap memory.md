@@ -99,7 +99,7 @@ First, at the top of `lib.rs`, change the `use` line so it includes _both_ `CStr
 use std::ffi::{CStr, CString};
 ```
 
-Now add new function later in the file:
+Now add a new function later in the file:
 
 ```rust
 #[no_mangle]
