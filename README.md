@@ -19,7 +19,7 @@ When you arrive, please open `00 - Setup Instructions` and get your computer rea
 ## Modules
 
 * [01 - Hello DevWorld - a Rust library](modules/01%20-%20Hello%20DevWorld.md)
-* [02 - Cross-compiling for Xcode](modules/02%20-%20Cross-compiling%20-for%20-Xcode.md)
+* [02 - Cross-compiling for Xcode](modules/02%20-%20Cross-compiling%20for%20Xcode.md)
 * [03 - Generating headers automatically](modules/03%20-%20Generating%20headers%20automatically.md)
 * [04 - Build automation](modules/04%20-%20Build%20automation.md)
 * [05 - Primitives, structs, enums](modules/05%20-%20Primitives,%20structs,%20enums.md)
