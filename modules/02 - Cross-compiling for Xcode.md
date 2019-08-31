@@ -101,7 +101,7 @@ With that change in place you should be able to run your app as normal on a real
 
 ### 2. Create both Debug and Release builds
 
-The performance of Rust code is often dramatically lower in Debug builds. It achieves full speed in Release mode but this comes at the cost of a longer compilation times. If you want to you can supply both Debug and Release builds to Xcode and it will choose the matching ones depending on whether you're doing a Debug or Release build inside Xcode.
+The performance of Rust code is often dramatically lower in Debug builds. It achieves full speed in Release mode but this comes at the cost of longer compilation times. If you want to you can supply both Debug and Release builds to Xcode and it will choose the matching ones depending on whether you're doing a Debug or Release build inside Xcode.
 
 To create release builds of your Rust library, pass the `--release` flag to cargo. Be careful: the compiled libraries will now be under `target/<arch>/release` instead of `debug`!
 
