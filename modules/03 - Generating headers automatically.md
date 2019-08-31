@@ -2,7 +2,7 @@
 
 ## Overview
 
-* Add functions to `libanvil` that take an argument and has a return value
+* Add functions to `libanvil` that take an argument and have a return value
 * Install cbindgen and use it to generate a C header
 
 ## Instructions
