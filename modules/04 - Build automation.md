@@ -60,6 +60,8 @@ First introduce a minor mistake to your Rust code, like forgetting the `!` in `p
     println("Hi there! This is a new message.");
 ```
 
+(If you replaced this in the `ferris_says` exercise, leave off the `b` before the string in `b"Hello..."`)
+
 What happens when you try to run the app in Xcode? Can you identify the problem and fix it?
 
 Next try something a bit nastier: add an extra `}` on the first line of the function:
