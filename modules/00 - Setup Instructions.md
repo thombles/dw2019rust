@@ -16,8 +16,13 @@ In these notes, if you see <code>$ <b>cargo build</b></code> it means this is a 
 $ <b>xcode-select --install</b>
 xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 </pre>
-3. **Rust**: Install Rust via Rustup. This is both an installation script and a command line tool that you can use to manage your Rust versions and features. Visit https://rustup.rs and follow the instructions. Use the default `stable` toolchain. When it finishes, remember to either run the provided `source` command or open a new shell!
-4. **Rust extra features**: We need to add Rust targets to build for 64-bit iOS platforms - physical and simulator. 32-bit versions are also available but hopefully you don't need them.
+3. **Xcode path**: Run `xcode-select --print-path` in Terminal and make it sure it points inside where your copy of Xcode is actually located. If it does not, use the `--switch` option to point it to the `Contents/Developer` subdirectory of your Xcode.
+<pre>
+$ <b>xcode-select --print-path</b>
+/Applications/Xcode.app/Contents/Developer
+</pre>
+4. **Rust**: Install Rust via Rustup. If you have installed it via Homebrew or other means, I would recommend uninstalling it and using Rustup instead. It will also interfere with some instructions in this workshop. Rustup is both an installation script and a command line tool that you can use to manage your Rust versions and features. Visit https://rustup.rs and follow the instructions. Use the default `stable` toolchain. When it finishes, remember to either run the provided `source` command or open a new shell!
+5. **Rust extra features**: We need to add Rust targets to build for 64-bit iOS platforms - physical and simulator. 32-bit versions are also available but hopefully you don't need them.
 <pre>
 $ <b>rustup target add aarch64-apple-ios x86_64-apple-ios</b>
 </pre>
