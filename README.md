@@ -1,3 +1,7 @@
+## Post-Workshop Update
+
+A video walkthrough of this tutorial including some of the slides from the day [is available on YouTube](https://www.youtube.com/watch?v=lKYSQ4JkSLU).
+
 # Workshop: Use Rust in iOS Apps
 
 Welcome to /dev/world 2019! In this workshop we will:
